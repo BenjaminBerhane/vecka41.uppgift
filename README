@@ -1,2 +1,3 @@
 Jag börjar med att välja temat, en blogg om mig. 
 Jag skapar html-skelettet och en css-fil + readme-fil
+Jag har lite problem med att få logo:n att hålla sig till vänster medan nav-baren skiftar mellan row och column beroende på skärmstorlek. Tar hölp av Chatgpt. Den hlälpte även med att se till så att headern alltid är synlig.
