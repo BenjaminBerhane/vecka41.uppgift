@@ -5,3 +5,5 @@ Lägger till wrap i main så att sectionerna blir responsiva och anpassar rubrik
 Jag stylade footern och använda mig av chatgpt för att skapa iconerna till sociala medier. Nu är hela start sidan klar.
 Jag börjar med andra sidan. Jag har skapat en branch via github desktop. 
 Allt gick bra förutom att footern tappade sina css. Jag har inte ändrat i footer html eller skapat ny footer css. Kan inte hitta felet så jag skapar en ny css för footer på den här sidan där jag justerar bredden manuellt. 
+Jag merge:ar den här branchen genom att skriva git checkout main för att komma till main-branch, sen skrev jag in git merge sida-2. Det fanns inga konflikter men backgrunden och border för section försvann så jag var tvungen att lägga till det igen. 
+Jag testar sidan med lighthouse. Allt var bra förutom performance på gallerisidan. Jag använder tinypng för komprimera bilderna.

@@ -67,7 +67,11 @@ h2 {
 }
 section {
     padding: 0;
-    margin: 0;
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: 2px solid rgb(57, 57, 74);
+
 }
 h3 {
     text-align: center;
@@ -77,6 +81,7 @@ h3 {
 }
 article {
     max-width: 30rem;
+    margin: 1rem;
 }
 footer {
     padding: 1rem;
