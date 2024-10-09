@@ -4,3 +4,4 @@ Jag har lite problem med att få logo:n att hålla sig till vänster medan nav-b
 Lägger till wrap i main så att sectionerna blir responsiva och anpassar rubrikerna. 
 Jag stylade footern och använda mig av chatgpt för att skapa iconerna till sociala medier. Nu är hela start sidan klar.
 Jag börjar med andra sidan. Jag har skapat en branch via github desktop. 
+Allt gick bra förutom att footern tappade sina css. Jag har inte ändrat i footer html eller skapat ny footer css. Kan inte hitta felet så jag skapar en ny css för footer på den här sidan där jag justerar bredden manuellt. 
