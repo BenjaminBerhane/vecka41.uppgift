@@ -22,7 +22,7 @@ body {
     "header"
     "main"
     "footer";
-    background: wheat;
+    background: #dcdee1;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 5px;
     width: 100%;
@@ -55,24 +55,48 @@ main {
     margin: 5px;
     padding: 5px;
     grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Ser till så att sections fördelar jämnt över sidan*/
 }
 h2 {
-    justify-content: center;
+    text-align: center;
+    width: 100%; /*Ser till så att h2 tar all yta i sin kolumn och inte påverkar resten av flexbox */
+    margin-top: 2rem; 
+    margin-bottom: 1rem;
 }
 section {
     border: 5px solid black;
     border-radius: 25px;
     padding: 1rem;
+    margin: 1rem;
 }
 h3 {
+    text-align: center;
+    width: 100%; 
+    margin-top: 0; 
 
 }
 article {
-
+    max-width: 30rem;
 }
 footer {
-    background-color: aqua;
+    padding: 1rem;
+    background-color: #32343d;
+    text-align: center;
     grid-area: footer;
+    color: aliceblue;
+}
+
+.social-media-icons a {
+    margin: 0 1rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.social-media-icons a:hover {
+    color: #007bff; /* Ändra färg vid hover */
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -99,6 +123,6 @@ footer {
         padding: 0;
     }
     .nav-links a{
-        margin: 5rem;
+        margin: 6rem;
     }
 }
