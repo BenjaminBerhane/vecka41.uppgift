@@ -22,7 +22,7 @@ body {
     "header"
     "main"
     "footer";
-    background: #dcdee1;
+    background: #8095b4cc;
 }
 
 h1 {
@@ -66,10 +66,8 @@ h2 {
     margin-bottom: 1rem;
 }
 section {
-    border: 5px solid black;
-    border-radius: 25px;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0;
+    margin: 0;
 }
 h3 {
     text-align: center;
@@ -84,8 +82,8 @@ footer {
     padding: 1rem;
     background-color: #32343d;
     text-align: center;
-    grid-area: footer;
     color: aliceblue;
+    grid-area: footer;
 }
 
 .social-media-icons a {
